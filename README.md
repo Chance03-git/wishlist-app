@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='Kapture 2025-05-06 at 21.50.40.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+file:///private/var/folders/s7/ksv47x250d3ghc8bp1wqj3yh0000gn/T/2cc61c8d24fa869e8a0251f4a9956e7e/Kapture%202025-05-06%20at%2021.50.40.gif
 
 GIF created with **Kap**
 
