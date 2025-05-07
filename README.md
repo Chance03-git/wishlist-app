@@ -24,15 +24,13 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+<img src='Kapture 2025-05-06 at 21.50.40.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
-<!-- Replace the image URL above with your actual GIF path -->
-GIF created with **CleanShot X**  
-<!-- Or whatever tool you end up using -->
+GIF created with **Kap**
 
 ## Notes
 
-One challenge I faced was getting the emulator to run properly with newer AndroidX dependencies and Gradle settings. Another was finding a compatible screen recording tool since Kap doesn’t support M1 Macs natively.
+One challenge I faced was getting the emulator to run properly with newer AndroidX dependencies and Gradle settings. Another was finding a compatible screen recording tool since Kap doesn’t support M1 Macs natively by default, but I worked around it.
 
 ## License
 
@@ -49,3 +47,4 @@ One challenge I faced was getting the emulator to run properly with newer Androi
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
