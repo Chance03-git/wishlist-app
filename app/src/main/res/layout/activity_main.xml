@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wishlistRv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/nameEntry"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Name Entry -->
+    <EditText
+        android:id="@+id/nameEntry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/priceEntry"
+        app:layout_constraintTop_toBottomOf="@id/wishlistRv"
+        app:layout_constraintBottom_toTopOf="@+id/urlEntry"
+        android:layout_margin="8dp" />
+
+    <!-- Price Entry -->
+    <EditText
+        android:id="@+id/priceEntry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ex: 5.99"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toEndOf="@+id/nameEntry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nameEntry"
+        app:layout_constraintBottom_toBottomOf="@+id/nameEntry"
+        android:layout_margin="8dp" />
+
+    <!-- URL Entry -->
+    <EditText
+        android:id="@+id/urlEntry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ex: https://example.com/item"
+        android:textSize="12sp"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/nameEntry"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/submitButton"
+        android:layout_margin="8dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="Submit"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
